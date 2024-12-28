@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kargo takip hizmeti">
+    <title>Kargo Şirketi - Kargo Takip</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Kargo Express</h1>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="services.html">Hizmetler</a></li>
+            <li><a href="about.html">Hakkımızda</a></li>
+            <li><a href="tracking.html">Kargo Takip</a></li>
+            <li><a href="contact.html">İletişim</a></li>
+        </ul>
+    </nav>
+    <!-- Kargo Takip Formu -->
+    <section>
+        <div class="container">
+            <h2>Kargo Takip</h2>
+            <form action="/track" method="GET">
+                <label for="trackingNumber">Kargo Takip Numarası:</label>
+                <input type="text" id="trackingNumber" name="trackingNumber" required>
+                <a type="submit" href="https://www.ptt.gov.tr">Takip Et</a>
+                
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Kargo Ekspres. Tüm Hakları Saklıdır.</p>
+        </div>
+    </footer>
+</body>
+</html>
